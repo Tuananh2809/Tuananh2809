@@ -1,6 +1,6 @@
 <div align="center">
   <h1>
-    Hi there, <b>User of &lt; /&gt;.</b>
+    Hi there, <code>User of &lt; /&gt;.</code>
     <img src="/assets/gifs/Hi.gif" width="35"/>
   </h1>
   <img src="/assets/gifs/Hacker-Terminal.gif" width="30%" />
