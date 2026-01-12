@@ -1,10 +1,9 @@
 <div align="center">
-  <img src="/assets/gifs/Hacker-Terminal.gif" width="50%" />
   <h1>
     Hi there, I'm Tuấn Anh 
     <img src="/assets/gifs/Hi.gif" width="35"/>
   </h1>
-
+  <img src="/assets/gifs/Hacker-Terminal.gif" width="50%" />
   <p><em>Software Engineer with a passion for building scalable web applications and analyzing data.</em></p>
 </div>
 
