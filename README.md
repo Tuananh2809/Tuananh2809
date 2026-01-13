@@ -7,7 +7,7 @@
   <p><em>Software Engineer with a passion for building scalable web applications and analyzing data.</em></p>
 </div>
 
-![Metrics](https://github.com/Tuananh2809/Tuananh2809/blob/main/access/svg/github-metrics.svg?raw=true)
+![Metrics](https://github.com/Tuananh2809/Tuananh2809/blob/main/assets/svgs/github-metrics.svg?raw=true)
 
 ---
 
