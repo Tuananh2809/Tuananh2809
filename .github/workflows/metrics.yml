@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           
           # --- CẤU HÌNH ĐỂ GIỐNG HỆT ẢNH BẠN GỬI ---
-          user: TuanAnh # Thay bằng username của bạn nếu cần
+          user: Tuananh2809 # Thay bằng username của bạn nếu cần
           template: classic
           
           # Phần 'base' này quyết định các mục hiển thị trong ảnh
