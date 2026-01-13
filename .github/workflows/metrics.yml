@@ -1,10 +1,9 @@
 name: Metrics
 on:
-  # Chạy tự động vào 0h00 mỗi ngày
+  # Chạy tự động 0h00 hằng ngày
   schedule: [{cron: "0 0 * * *"}]
-  # Cho phép chạy thủ công từ tab Actions
+  # Cho phép chạy thủ công
   workflow_dispatch:
-  # Chạy mỗi khi push vào nhánh master/main (tùy chọn)
   push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
@@ -14,11 +13,18 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Token bạn đã tạo ở bước 2
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Cấu hình hiển thị (bạn có thể chỉnh sửa phần này)
-          user: <Tuananh2809>
+          
+          # --- CẤU HÌNH ĐỂ GIỐNG HỆT ẢNH BẠN GỬI ---
+          user: TuanAnh # Thay bằng username của bạn nếu cần
           template: classic
+          
+          # Phần 'base' này quyết định các mục hiển thị trong ảnh
+          # header: Chứa avatar, ngày tham gia
+          # activity: Chứa thanh commit (màu xanh), số repo đóng góp
+          # community: Chứa số follower, người đang follow
+          # repositories: Chứa thông tin giấy phép (license), sao, releases
+          # metadata: Thông tin kỹ thuật của ảnh
           base: header, activity, community, repositories, metadata
+          
           config_timezone: Asia/Ho_Chi_Minh
